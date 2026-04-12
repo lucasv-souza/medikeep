@@ -22,4 +22,7 @@ jobs:
         run: flake8 src/ --ignore=W293,E302,E305
 
       - name: Run Tests (Testes Automatizados)
-        run: pytest
+        run: |
+          pip install pytest
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          pytest
