@@ -1,4 +1,4 @@
-# 💊 MediKeep - Gerenciador de Medicamentos CLI
+# 💊 MediKeep - Gerenciador de Medicamentos
 
 ![CI Status](https://github.com/lucasv-souza/medikeep/actions/workflows/ci.yml/badge.svg)
 
@@ -63,3 +63,11 @@ python -m pytest
 ```bash
 flake8 src/ tests/ --ignore=W293,E302,E305,E501,W292,F401
 ```
+
+---
+
+## 🎓 Identificação do Autor
+
+* **Aluno:** Lucas Vinicius de Souza
+* **RA:** 22504534
+* **Curso:** Ciência da Computação
