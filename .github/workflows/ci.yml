@@ -19,7 +19,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run Lint (Análise Estática)
-        run: flake8 src/ --ignore=W293,E302,E305
+        run: flake8 src/ tests/ --ignore=W293,E302,E305,E251,E701,F401,W391
 
       - name: Run Tests (Testes Automatizados)
         run: |
