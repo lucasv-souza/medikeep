@@ -23,6 +23,5 @@ jobs:
 
       - name: Run Tests (Testes Automatizados)
         run: |
-          pip install pytest
           export PYTHONPATH=$PYTHONPATH:$(pwd)
-          pytest
+          python -m pytest
